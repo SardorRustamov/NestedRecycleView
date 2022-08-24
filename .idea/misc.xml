@@ -4,7 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/JAVA/AmaliyDars/PDP Task/NestedRecycleView/app/src/main/res/layout/activity_main.xml" value="0.1082427536231884" />
-        <entry key="..\:/JAVA/AmaliyDars/PDP Task/NestedRecycleView/app/src/main/res/layout/child_rv_layout.xml" value="0.16757246376811594" />
+        <entry key="..\:/JAVA/AmaliyDars/PDP Task/NestedRecycleView/app/src/main/res/layout/child_rv_layout.xml" value="0.1" />
+        <entry key="..\:/JAVA/AmaliyDars/PDP Task/NestedRecycleView/app/src/main/res/layout/layout_gs.xml" value="0.16757246376811594" />
         <entry key="..\:/JAVA/AmaliyDars/PDP Task/NestedRecycleView/app/src/main/res/layout/parent_rv_layout.xml" value="0.16757246376811594" />
       </map>
     </option>

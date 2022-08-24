@@ -19,7 +19,7 @@ public class ChildAdapter extends RecyclerView.Adapter<ChildAdapter.ViewHolder> 
     List<ChildModelClass> childModelClassList;
     Context context;
 
-    //Question root null or parent
+    //Question: root null or parent
     public ChildAdapter(List<ChildModelClass> childModelClassList, Context context) {
         this.childModelClassList = childModelClassList;
         this.context = context;

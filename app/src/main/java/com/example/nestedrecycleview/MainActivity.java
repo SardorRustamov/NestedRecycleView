@@ -32,21 +32,21 @@ public class MainActivity extends AppCompatActivity {
         childModelClassArrayList=new ArrayList<>();
         parentModelClassArrayList=new ArrayList<>();
 
-        childModelClassArrayList.add(new ChildModelClass(R.drawable.ic_launcher_foreground));
-        childModelClassArrayList.add(new ChildModelClass(R.drawable.ic_launcher_foreground));
-        childModelClassArrayList.add(new ChildModelClass(R.drawable.ic_launcher_foreground));
-        childModelClassArrayList.add(new ChildModelClass(R.drawable.ic_launcher_foreground));
-        childModelClassArrayList.add(new ChildModelClass(R.drawable.ic_launcher_foreground));
-        childModelClassArrayList.add(new ChildModelClass(R.drawable.ic_launcher_foreground));
-        childModelClassArrayList.add(new ChildModelClass(R.drawable.ic_launcher_foreground));
-        childModelClassArrayList.add(new ChildModelClass(R.drawable.ic_launcher_foreground));
+        childModelClassArrayList.add(new ChildModelClass(R.drawable.img8));
+        childModelClassArrayList.add(new ChildModelClass(R.drawable.img9));
+        childModelClassArrayList.add(new ChildModelClass(R.drawable.img10));
+        childModelClassArrayList.add(new ChildModelClass(R.drawable.img11));
+        childModelClassArrayList.add(new ChildModelClass(R.drawable.img8));
+        childModelClassArrayList.add(new ChildModelClass(R.drawable.img9));
+        childModelClassArrayList.add(new ChildModelClass(R.drawable.img10));
+        childModelClassArrayList.add(new ChildModelClass(R.drawable.img11));
 
-        parentModelClassArrayList.add(new ParentModelClass("Recently", childModelClassArrayList));
-        parentModelClassArrayList.add(new ParentModelClass("Recently", childModelClassArrayList));
-        parentModelClassArrayList.add(new ParentModelClass("Recently", childModelClassArrayList));
-        parentModelClassArrayList.add(new ParentModelClass("Recently", childModelClassArrayList));
-        parentModelClassArrayList.add(new ParentModelClass("Recently", childModelClassArrayList));
-        parentModelClassArrayList.add(new ParentModelClass("Recently", childModelClassArrayList));
+        parentModelClassArrayList.add(new ParentModelClass("Nature", childModelClassArrayList));
+        parentModelClassArrayList.add(new ParentModelClass("Nature", childModelClassArrayList));
+        parentModelClassArrayList.add(new ParentModelClass("Nature", childModelClassArrayList));
+        parentModelClassArrayList.add(new ParentModelClass("Nature", childModelClassArrayList));
+        parentModelClassArrayList.add(new ParentModelClass("Nature", childModelClassArrayList));
+        parentModelClassArrayList.add(new ParentModelClass("Nature", childModelClassArrayList));
 
 
         parentAdapter=new ParentAdapter(parentModelClassArrayList, MainActivity.this);

@@ -14,7 +14,7 @@
             android:id="@+id/tv_parent_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="10dp"
+            android:padding="5dp"
             android:textColor="@color/white"
             android:text="Title"
             android:textSize="20sp"
@@ -26,9 +26,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp">
 
-
         </androidx.recyclerview.widget.RecyclerView>
     </LinearLayout>
-
 
 </RelativeLayout>
