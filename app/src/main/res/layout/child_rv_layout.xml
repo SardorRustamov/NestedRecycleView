@@ -26,6 +26,14 @@
 
         </androidx.cardview.widget.CardView>
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyc_gs"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#AEAFAE">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
     </LinearLayout>
 
 </RelativeLayout>

@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.nestedrecycleview.R;
@@ -35,6 +36,12 @@ public class ChildAdapter extends RecyclerView.Adapter<ChildAdapter.ViewHolder> 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.iv_child_image.setImageResource(childModelClassList.get(position).image);
+
+        Adapter_gs adapter_gs;
+        adapter_gs = new Adapter_gs(childModelClassList.get(position).model_gs, context);
+        holder.recyclerView_gs.setLayoutManager(new LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false));
+        holder.recyclerView_gs.setAdapter(adapter_gs);
+
     }
 
     @Override
@@ -44,11 +51,13 @@ public class ChildAdapter extends RecyclerView.Adapter<ChildAdapter.ViewHolder> 
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
+        RecyclerView recyclerView_gs;
         ImageView iv_child_image;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             iv_child_image=itemView.findViewById(R.id.iv_child_item);
+            recyclerView_gs=itemView.findViewById(R.id.recyc_gs);
         }
     }
 }
